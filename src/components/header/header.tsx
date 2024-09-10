@@ -1,40 +1,35 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import { Nav } from "react-bootstrap";
+import { Info } from "./header-info";
 
 
 
 const Header = () => {
 
     return (
-        <Nav fill>
-            <Nav.Item>
-                <Nav.Link href="/home" disabled>اتصل بنا </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="disabled" disabled>أخر التعليقات</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="disabled" disabled>عملاؤنا
-                </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="disabled" disabled>
-                    سابقة الأعمال
-                </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="disabled" disabled>
-                    الرئيسية
-                </Nav.Link>
-            </Nav.Item>
-            {/* This last nav item comes from images folder */}
-            <Nav.Item>
-                <Nav.Link eventKey="disabled" disabled>
-                    الشعار
-                </Nav.Link>
-            </Nav.Item>
-        </Nav>
+        <div className="header">
+            {Info.map((page, id) => (
+                <Nav fill>
+                    <Nav.Item>
+                        <Nav.Link href={page.path}>
+                            {page.name}
+                        </Nav.Link>
+                    </Nav.Item>
+                </Nav>
+            ))}
+        </div>
+
+
+
+
+
+
+
+
+
+
+
     )
 }
 export default Header;
