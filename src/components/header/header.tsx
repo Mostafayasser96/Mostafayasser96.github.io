@@ -6,7 +6,6 @@ import { Info } from "./header-info";
 
 
 const Header = () => {
-
     return (
         <div className="header">
             {Info.map((page, id) => (
@@ -19,17 +18,6 @@ const Header = () => {
                 </Nav>
             ))}
         </div>
-
-
-
-
-
-
-
-
-
-
-
     )
 }
 export default Header;

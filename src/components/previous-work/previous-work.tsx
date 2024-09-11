@@ -6,56 +6,46 @@ import "../previous-work/previous-styles.css";
 const PreviousWork = () => {
     return (
         <div className="previous-work">
-            <h1 className="our-numbers">
-                سابقة الأعمال
+            <h1 className="previous-header">
+                الارقام تتكلم !
             </h1>
-            <p className="discounts">
+            <h3 className="previous-description">
                 خصم خاص لكافة الخدمات بمناسبة مرور 25 عاما من الخبرة
-            </p>
-            <div className="num-cats">
-                <div className="sub-cat">
-                    <span className="icon">
+            </h3>
+            <div className="previous-details">
+                <div className="achievement">
+                    <i className="icon">
 
-                    </span>
-                    <div className="num-val">
-                        30
+                    </i>
+                    <p className="number">
 
-                    </div>
-                    <div className="num-comment">
-                        الذين يعملون من أجلك !
-                    </div>
+                    </p>
+                    <p className="achievement-description">
+
+                    </p>
                 </div>
-                <div className="sub-cat">
-                    <span className="icon">
+                <div className="achievement">
+                    <i className="icon">
 
-                    </span>
-                    <div className="num-val">
-                        5000+
-                    </div>
-                    <div className="num-comment">
-                        أعمال سابقة
-                    </div>
+                    </i>
+                    <p className="number">
+
+                    </p>
+                    <p className="achievement-description">
+
+                    </p>
                 </div>
-                <div className="sub-cat">
-                    <span className="icon">
+                <div className="achievement">
+                    <i className="icon">
 
-                    </span>
-                    <div className="num-val">
-                        25%
-                    </div>
-                    <div className="num-comment">
-                        خصم خاص لكافة خدمات التنظيف
-                    </div>
+                    </i>
+                    <p className="number">
+
+                    </p>
+                    <p className="achievement-description">
+
+                    </p>
                 </div>
-
-            </div>
-
-
-            <div className="mantra">
-              <h1 className="bio">لا تشيل هم .. خلينا نهتم
-              </h1>
-              <p className="man1">الوصول لاعلي درجات النظافة مع التخلص التام من كافة الميكروبات والجراسيم</p>
-              <button className="call-us">اتصل بنا</button>
             </div>
         </div>
     )

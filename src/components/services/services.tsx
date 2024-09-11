@@ -1,91 +1,34 @@
 import React from "react";
-
-
-
+import Info from "./services-info";
 
 const Services = () => {
     return (
-        // <div className="services">
-        //     <p className="services-intro">
-        //         في أتم جاهزية للقيام بكافة أعمال التنظيف  والتعقيم والتطهير علي مدار اليوم ..
-        //         تنظيف وتعقيم النوافذ والمغاسل والحمامات والجدران والارضيات والابواب
-        //         ازالة الغراء والاوساخ وتلميع السيراميك
-        //         كافة خدمات التعقيم والتطهير ومكافحة الحشرات والآفات
-        //     </p>
-        //     <div className="services-types">
-        //         <div className="services-part1">
-        //             <div className="sub-service">
-        //                 <h1 className="service-name">
-        //                     كافة خدمات التنظيف العميق
-        //                 </h1>
-        //                 <p className="service-details">
-        //                     فرق مجهزة باحدث المعدات ومواد التنظيف للوصل لاعلي درجات الدقة في اعمال التنظيف والتعقيم والتطهير  باستخدام افضل مواد التنظيف مع عناية تامة لكافة مقتنياتك
-        //                 </p>
-        //                 <button className="knowMore">
-        //                     اعرف أكثر
-        //                 </button>
-        //             </div>
-        //             <div className="sub-service">
-        //                 <h1 className="service-name">
-        //                     كافة خدمات التنظيف العميق
-        //                 </h1>
-        //                 <p className="service-details">
-        //                     فرق مجهزة باحدث المعدات ومواد التنظيف للوصل لاعلي درجات الدقة في اعمال التنظيف والتعقيم والتطهير  باستخدام افضل مواد التنظيف مع عناية تامة لكافة مقتنياتك
-        //                 </p>
-        //                 <button className="knowMore">
-        //                     اعرف أكثر
-        //                 </button>
-        //             </div>
-        //             <div className="sub-service">
-        //                 <h1 className="service-name">
-        //                     كافة خدمات التنظيف العميق
-        //                 </h1>
-        //                 <p className="service-details">
-        //                     فرق مجهزة باحدث المعدات ومواد التنظيف للوصل لاعلي درجات الدقة في اعمال التنظيف والتعقيم والتطهير  باستخدام افضل مواد التنظيف مع عناية تامة لكافة مقتنياتك
-        //                 </p>
-        //                 <button className="knowMore">
-        //                     اعرف أكثر
-        //                 </button>
-        //             </div>
-        //         </div>
-        //         <div className="services-part2">
-        //             <div className="sub-service">
-        //                 <h1 className="service-name">
-        //                     كافة خدمات التنظيف العميق
-        //                 </h1>
-        //                 <p className="service-details">
-        //                     فرق مجهزة باحدث المعدات ومواد التنظيف للوصل لاعلي درجات الدقة في اعمال التنظيف والتعقيم والتطهير  باستخدام افضل مواد التنظيف مع عناية تامة لكافة مقتنياتك
-        //                 </p>
-        //                 <button className="knowMore">
-        //                     اعرف أكثر
-        //                 </button>
-        //             </div>
-        //             <div className="sub-service">
-        //                 <h1 className="service-name">
-        //                     كافة خدمات التنظيف العميق
-        //                 </h1>
-        //                 <p className="service-details">
-        //                     فرق مجهزة باحدث المعدات ومواد التنظيف للوصل لاعلي درجات الدقة في اعمال التنظيف والتعقيم والتطهير  باستخدام افضل مواد التنظيف مع عناية تامة لكافة مقتنياتك
-        //                 </p>
-        //                 <button className="knowMore">
-        //                     اعرف أكثر
-        //                 </button>
-        //             </div>
-        //             <div className="sub-service">
-        //                 <h1 className="service-name">
-        //                     كافة خدمات التنظيف العميق
-        //                 </h1>
-        //                 <p className="service-details">
-        //                     فرق مجهزة باحدث المعدات ومواد التنظيف للوصل لاعلي درجات الدقة في اعمال التنظيف والتعقيم والتطهير  باستخدام افضل مواد التنظيف مع عناية تامة لكافة مقتنياتك
-        //                 </p>
-        //                 <button className="knowMore">
-        //                     اعرف أكثر
-        //                 </button>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </div>
+        <div className="services"> 
+            <div className="services-bio">
+                <h1 className="services-heading">
+                    {/* The word services should be here */}
+                </h1>
+                <p className="bio">
+                    {/* there should be a text here explaining services */}
+                </p>
+            </div>
+            <div className="services-detailed">
+                {Info.map((service, key: number) => (
+                    <div key={key}>
+                     <img src={service.image as string} alt={service.header} />
+                     <h3 className="details-header">
+                        {service.header}
+                     </h3>
+                     <p className="details-description">
+                        {service.description}
+                     </p>
+                     <button className="details-knowMore">
+                        {service.knowMore}
+                     </button>
+                    </div>
+                ))}
+            </div>
+        </div>
     )
 }
-
 export default Services;

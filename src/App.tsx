@@ -11,9 +11,9 @@ import Clients from './components/clients/clients';
 function App() {
   return (
     <div className="App">
-        <Header />
+        {/* <Header /> */}
         {/* <Services /> */}
-        {/* <PreviousWork /> */}
+        <PreviousWork />
         {/* <Clients /> */}
         {/* <Footer /> */}
     </div>
