@@ -1,0 +1,79 @@
+/*  background-color: rgb(246, 144, 35);    or #f69023   */
+.services {
+    margin-top: 100px;
+    padding: 0px 6% 3% 6%;
+}
+
+.services-heading {
+    color: rgb(37, 37, 37);
+    direction: rtl;
+    font-family: "Cairo, Cairo, Arial";
+    font-size: 45px;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+}
+
+.line {
+    width: 7%;
+    height: 3px;
+    background-color: rgb(246, 144, 35);
+    margin-left: 47%;
+}
+
+.bio {
+    padding: 20px 15%;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: "Cairo, Cairo, Arial";
+}
+
+.cardHolder {
+    margin-bottom: 50px;
+}
+
+.details-description {
+    direction: rtl;
+}
+
+.service-card {
+    margin-right: 3%;
+    width: 30%;
+}
+
+.card-img {
+    width: 200px;
+    height: 190px;
+    border-radius: 50%;
+    margin: 5px 5px 22px;
+}
+
+.details-header {
+    color: rgb(37, 37, 37);
+    direction: rtl;
+    font-family: "Cairo, Cairo, Arial";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.details-description {
+    margin-bottom: 32px;
+    color: rgb(37, 37, 37);
+    direction: rtl;
+    font-family: "Cairo, Cairo, Arial";
+    font-size: 18px;
+}
+
+.details-knowMore {
+    border-radius: 8px;
+    border: 2px solid green;
+    font-family: "Cairo, Cairo, Arial";
+    width: 107px;
+    height: 50px;
+    color: white;
+    background-color: rgb(246, 144, 35);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}

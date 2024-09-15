@@ -3,14 +3,12 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Nav, NavDropdown } from "react-bootstrap";
 
 
-
-
 const Footer = () => {
-
     return (
         <Nav fill>
             <Nav.Item>
                 <Nav fill>
+                    
                     <NavDropdown title="Link" id="navbarScrollingDropdown">
                         <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
                         <NavDropdown.Item href="#action4">

@@ -1,22 +1,6 @@
 export const Info = [
     {
-        name: "الشعار",
-        path: "/main"
-    },
-    {
-        name: "الرئيسية",
-        path: "/main"
-    },
-    {
-        name: "خدماتنا",
-        path: "/main"
-    },
-    {
-        name: "سابقة الأعمال",
-        path: "/main"
-    },
-    {
-        name: "عملاؤنا",
+        name: "اتصل بنا",
         path: "/main"
     },
     {
@@ -24,8 +8,25 @@ export const Info = [
         path: "/main"
     },
     {
-        name: "اتصل بنا",
+        name: "عملاؤنا",
         path: "/main"
     },
-    
+    {
+        name: "سابقة الأعمال",
+        path: "/main"
+    },
+    {
+        name: "خدماتنا",
+        path: "/main"
+    },
+    {
+        name: "الرئيسية",
+        path: "/main"
+    },
 ];
+
+
+
+
+
+

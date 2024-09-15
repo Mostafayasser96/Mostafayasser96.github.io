@@ -1,0 +1,36 @@
+/*  background-color: rgb(246, 144, 35); */
+/* the background color for the navbar should be modified, logo should be refactored to be compatible
+with the rest of elements in the navbar */
+.header {
+    height: 800px;
+}
+
+.header-video {
+    position: absolute;
+    height: 800px;
+    background-color: red;
+    width: 100%;
+}
+
+.nav {
+    background-color: rgb(246, 144, 35);
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+}
+.nav-item a {
+    color: white;
+    font-weight: bold;
+}
+.nav-item a:hover {
+    opacity: .5;
+}
+.logo-a {
+    display: inline-block;
+    height: 100px;
+}
+
+.header-logo {
+    width: 160px;
+    height: 140px;
+}
