@@ -1,0 +1,41 @@
+.clients {
+    padding-bottom: 100px;
+}
+.clients-heading {
+    color: rgb(37, 37, 37);
+    direction: rtl;
+    font-size: 34px;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+
+.line {
+    width: 8%;
+    height: 3px;
+    background-color: rgb(246, 144, 35);
+    margin-left: 46%;
+}
+
+.clients-bio {
+    color: rgb(37, 37, 37);
+    direction: rtl;
+    font-size: 22px;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+    line-height: 22px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.carousel {
+    height: 500px;
+    width: 50%;
+    margin-left: 27%;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+}

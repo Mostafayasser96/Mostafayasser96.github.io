@@ -1,37 +1,35 @@
+import Image1 from "./images/image-1.png";
+import Image2 from "./images/image-2.png";
+import Image3 from "./images/image-3.gif";
+import Image4 from "./images/image-5.png";
+
 export const ClientsInfo = [
     {
-        src: "https://images.cdn-files-a.com/uploads/5731318/400_5de6a085002f1.png",
+        src: `${Image1}`,
         alt: "Elreyad Reit",
-        width: "",
-        height: "",
+        width: "100%",
+        height: "100%",
         interval: 2000
     },
     {
-        src: "https://images.cdn-files-a.com/uploads/5731318/400_5de6a092688ab.jpg",
+        src: `${Image2}`,
         alt: "Four Seasons Hotels",
-        width: "",
-        height: "",
+        width: "100%",
+        height: "100%",
         interval: 2000
     },
     {
-        src: "https://images.cdn-files-a.com/uploads/5731318/400_5de6a21d4a70c.png",
+        src: `${Image3}`,
         alt: "Mariott Reyadh",
-        width: "",
-        height: "",
+        width: "100%",
+        height: "100%",
         interval: 2000
     },
     {
-        src: "https://images.cdn-files-a.com/uploads/5731318/400_5de6a09e5436a.png",
+        src: `${Image4}`,
         alt: "Intercontinental Hotels",
-        width: "",
-        height: "",
-        interval: 2000
-    },
-    {
-        src: "https://images.cdn-files-a.com/uploads/5731318/400_60b7897704bce.png",
-        alt: "Elrajihi Bank",
-        width: "",
-        height: "",
+        width: "100%",
+        height: "100%",
         interval: 2000
     },
 ];

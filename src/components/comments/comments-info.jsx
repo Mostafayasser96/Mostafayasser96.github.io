@@ -1,4 +1,4 @@
-export const Info = [
+const CommentsInfo = [
     {
         rating: "5",
         comment: " أشكركم على الخدمة الممتازة التي قدمتموها! كانت العملية سلسة واحترافية للغاية، والنتائج رائعة ",
@@ -29,4 +29,5 @@ export const Info = [
         comment: " الحقيقة أن الخدمة التي تلقيتها كانت ذات قيمة ممتازة مقابل المال ",
         name: " عبدالله السيف "
     }
-]
+];
+export default CommentsInfo;

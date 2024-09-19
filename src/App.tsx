@@ -15,8 +15,8 @@ function App() {
         <Header />
         <Services />
         <PreviousWork />
-        {/* <Clients /> */}
-        {/* <Comments /> */}
+        <Clients />
+        <Comments />
         {/* <Register /> */}
         {/* <Footer /> */}
     </div>

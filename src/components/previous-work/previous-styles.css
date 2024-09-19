@@ -39,4 +39,30 @@
 
 .number {
     margin-top: 20px;
+    color: rgb(246, 144, 35);
+    direction: ltr;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.number1 {
+    color: red;
+    margin-top: 20px;
+    direction: ltr;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.achievement-description {
+    color: rgb(246, 144, 35);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.achievement-description1 {
+    color: red;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px; 
 }

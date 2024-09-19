@@ -14,18 +14,16 @@ const PreviousWork = () => {
             <h3 className="previous-description">
                 خصم خاص لكافة الخدمات بمناسبة مرور 25 عاما من الخبرة
             </h3>
-            <div className="previous-details d-flex justify-content-space-between">
-                
-                
+            <div className="previous-details d-flex justify-content-between">    
                 <div className="achievement">
                     <i className="icon">
                     <FontAwesomeIcon icon={faGift} color="red" />
                     </i>
-                    <p className="number">
+                    <p className="number1">
                          25%
                     </p>
-                    <p className="achievement-description">
-                       {/* There should be a discount here */}
+                    <p className="achievement-description1">
+                    خصم خاص لكافة خدمات التنظيف
                     </p>
                 </div>
                 <div className="achievement">
@@ -36,7 +34,7 @@ const PreviousWork = () => {
                          200+
                     </p>
                     <p className="achievement-description">
-                          {/* There should be a heading here */}
+                    أعمال سابقة
                     </p>
                 </div>
                 <div className="achievement">
@@ -47,7 +45,7 @@ const PreviousWork = () => {
                        30+
                     </p>
                     <p className="achievement-description">
-                            {/* There should be a heading here */}
+                   ! الذين يعملون من أجلك 
                     </p>
                 </div>
             </div>

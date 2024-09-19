@@ -17,6 +17,7 @@ with the rest of elements in the navbar */
     padding: 15px;
     position: fixed;
     width: 100%;
+    z-index: 4444;
 }
 .nav-item a {
     color: white;
