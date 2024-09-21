@@ -1,0 +1,109 @@
+.register-form {
+    padding: 0px 25% 100px;
+    border-bottom: 1px solid gray;
+}
+
+.call-us {
+    color: rgb(37, 37, 37);
+    direction: rtl;
+    font-size: 33px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 42px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+}
+
+.callUs-line {
+    width: 8%;
+    background-color: rgb(246, 144, 35);
+    height: 3px;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+.covering {
+    color: rgb(37, 37, 37);
+    direction: rtl;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 27px;
+    margin: 25px 0px 5px;
+}
+
+.covering2 {
+    color: rgb(37, 37, 37);
+    direction: rtl;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.mobile-number {
+    padding: 20px 0px 10px;
+    display: block;
+    color: rgb(246, 144, 35);
+    text-decoration: none;
+    cursor: pointer;
+    direction: ltr;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.mobile-number:hover {
+    text-decoration: underline;
+}
+
+.covering3 {
+    color: rgb(37, 37, 37);
+    direction: rtl;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+    font-size: 17.5px;
+    font-weight: 700;
+    line-height: 24.5px;
+}
+
+.form {
+    text-align: right;
+}
+.form-label {
+    color: rgb(37, 37, 37);
+    direction: rtl;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+    font-size: 17.5px;
+    font-weight: 700;
+    line-height: 24.5px;
+}
+
+.form-control {
+    background-color: rgb(255, 255, 255);
+    border-color: #d4d7e5;
+    border-radius: 10px;
+    font-weight: 400;
+    transition-duration: .15s, .15s;
+    padding: 2% 3%;
+    opacity: .6;
+    text-align: right;
+}
+
+.btn {
+    width: 100%;
+    color: white;
+    padding: .5%;
+    border: 1px solid white;
+    background-color: rgb(246, 144, 35);
+}
+
+.btn:hover {
+    text-decoration: none;
+    background-color: rgb(246, 144, 35);
+    text-decoration: none;
+    outline: none;
+}
+.border-div {
+    border: 1px solid white;
+    padding: 2%;
+    font-size: 17.5px;
+    font-weight: 700;
+}

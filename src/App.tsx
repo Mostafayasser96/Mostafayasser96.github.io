@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
 import Header from './components/header/header';
-import Footer from './components/footer/footer';
+
 import Services from './components/services/services';
 import PreviousWork from './components/previous-work/previous-work';
 import Clients from './components/clients/clients';
 import Comments from './components/comments/comments';
-import Register from './components/contact/register';
+import Register from './components/registeration/register';
+import Footer from './components/footer/footer';
 
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
         <PreviousWork />
         <Clients />
         <Comments />
-        {/* <Register /> */}
-        {/* <Footer /> */}
+        <Register />
+        <Footer />
     </div>
   );
 }

@@ -15,7 +15,7 @@ const Header = () => {
             </div>
             <Nav fill>               
                 {Info.map((page, id) => (
-                    <Nav.Item>
+                    <Nav.Item key={id}>
                         <Nav.Link href={page.path}>
                             {page.name}
                         </Nav.Link>

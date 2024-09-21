@@ -11,7 +11,7 @@ const Clients = () => {
             <h1 className="clients-heading">عملاؤنا</h1>
             <div className="line"></div>
             <p className="clients-bio">فخورون لتقديم خدمة ممتازة وعلاقات قيّمة طويلة الأمد مع عملائنا</p>
-            <Carousel interval={null}>
+            <Carousel interval={null} className="clients-carousel">
                 {ClientsInfo.map((client, id) => (
                     <Carousel.Item key={id}>
                         <img src={client.src} alt={client.alt} width={client.width} height={client.height}/>
