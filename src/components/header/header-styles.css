@@ -3,28 +3,32 @@
 with the rest of elements in the navbar */
 .header {
     height: 800px;
+    
 }
 
 .header-video {
     position: absolute;
-    height: 800px;
+    /* height: 100%; */
     background-color: red;
+    display: block;
     width: 100%;
 }
 
 .header .nav {
-    background-color: rgb(246, 144, 35);
-    padding: 15px;
+    background-color: #EBE3D5;
+    padding: 7px;
     position: fixed;
     width: 100%;
     z-index: 4444;
+    height: 70px;
 }
 .nav-item a {
-    color: white;
+    color: #776B5D;
     font-weight: bold;
 }
 .nav-item a:hover {
-    opacity: .5;
+    color: #198cd8;
+
 }
 .logo-a {
     display: inline-block;
@@ -32,6 +36,6 @@ with the rest of elements in the navbar */
 }
 
 .header-logo {
-    width: 160px;
-    height: 140px;
+    width: 80px;
+    height: 58px;
 }

@@ -1,25 +1,28 @@
 import React from 'react';
 import './App.css';
-import Header from './components/header/header';
-
-import Services from './components/services/services';
-import PreviousWork from './components/previous-work/previous-work';
-import Clients from './components/clients/clients';
-import Comments from './components/comments/comments';
-import Register from './components/registeration/register';
-import Footer from './components/footer/footer';
+import Main from './pages/main';
+import { Route, Routes } from 'react-router-dom';
+import ServicesPage from './pages/services-page';
+import PreviousWorksPage from './pages/previous-works-page';
+import ClientsPage from './pages/clients-page';
+import CommentsInfo from './components/comments/comments-info';
+import CommentsPage from './pages/comments-page';
+import CallUsPage from './pages/callUs-page';
 
 
 function App() {
   return (
     <div className="App">
-        <Header />
-        <Services />
-        <PreviousWork />
-        <Clients />
-        <Comments />
-        <Register />
-        <Footer />
+      <Routes>
+      <Route path='/' Component={Main} />
+      <Route path='/services' Component={ServicesPage} />
+      <Route path='/previousWork' Component={PreviousWorksPage} />
+      <Route path='/clients' Component={ClientsPage} />
+      <Route path='/comments' Component={CommentsPage} />
+      <Route path='/call-us' Component={CallUsPage} />
+      
+      </Routes>
+        
     </div>
   );
 }

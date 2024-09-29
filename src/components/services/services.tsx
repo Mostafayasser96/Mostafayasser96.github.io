@@ -7,11 +7,11 @@ const Services = () => {
     return (
         <div className="services">
             <div className="services-bio">
-                <h1 className="services-heading">
+                <h1 className="services-heading ">
                     الخدمات
                 </h1>
                 <div className="line"></div>
-                <p className="bio">
+                <p className="bio ">
                     في أتم جاهزية للقيام بكافة أعمال التنظيف  والتعقيم والتطهير علي مدار اليوم ..
                     تنظيف وتعقيم النوافذ والمغاسل والحمامات والجدران والارضيات والابواب
                     ازالة الغراء والاوساخ وتلميع السيراميك
@@ -19,9 +19,9 @@ const Services = () => {
                 </p>
             </div>
             <div className="services-detailed">
-                <div className="cardHolder d-flex justify-content-space-between">
+                <div className="cardHolder d-lg-flex d-sm-block justify-content-space-between ">
                     {Info?.map((service, key: number) => (
-                        <div className="service-card" key={key}>
+                        <div className="service-card col-lg-4" key={key}>
                             <img className="card-img" src={service.image as string} alt={service.header} />
                             <h3 className="details-header">
                                 {service.header}
@@ -35,9 +35,9 @@ const Services = () => {
                         </div>
                     ))}
                 </div>
-                <div className="cardHolder d-flex justify-content-space-between text-center">
+                <div className="cardHolder d-lg-flex d-sm-block justify-content-space-between ">
                     {Info2?.map((service, key: number) => (
-                        <div className="service-card" key={key}>
+                        <div className="service-card col-lg-4" key={key}>
                             <img className="card-img" src={service.image as string} alt={service.header} />
                             <h3 className="details-header">
                                 {service.header}

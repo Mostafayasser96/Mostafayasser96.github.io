@@ -11,10 +11,10 @@ const PreviousWork = () => {
                ! الأرقام تتكلم 
             </h1>
             <div className="line"></div>
-            <h3 className="previous-description">
+            <h3 className="previous-description col-lg-12 col-sm-12">
                 خصم خاص لكافة الخدمات بمناسبة مرور 25 عاما من الخبرة
             </h3>
-            <div className="previous-details d-flex justify-content-between">    
+            <div className="previous-details d-lg-flex d-sm-block justify-content-between">    
                 <div className="achievement">
                     <i className="icon">
                     <FontAwesomeIcon icon={faGift} color="red" />
@@ -42,7 +42,7 @@ const PreviousWork = () => {
                     <FontAwesomeIcon icon={faPerson} color="#f69023" />
                     </i>
                     <p className="number">
-                       30+
+                       15+
                     </p>
                     <p className="achievement-description">
                    ! الذين يعملون من أجلك 

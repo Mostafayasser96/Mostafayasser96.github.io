@@ -28,6 +28,7 @@
 }
 
 .cardHolder {
+    /* display: flex; */
     margin-bottom: 50px;
 }
 
@@ -37,7 +38,7 @@
 
 .service-card {
     margin-right: 3%;
-    width: 30%;
+    /* width: 30%; */
 }
 
 .card-img {
