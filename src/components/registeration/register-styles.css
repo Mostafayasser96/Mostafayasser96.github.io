@@ -1,12 +1,10 @@
 .register-form {
     /* padding: 0px 25% 100px; */
-    border-bottom: 1px solid gray;
 }
 
 .call-us {
     color: rgb(37, 37, 37);
     direction: rtl;
-    font-size: 33px;
     font-weight: 500;
     letter-spacing: .5px;
     line-height: 42px;
@@ -14,7 +12,7 @@
 }
 
 .callUs-line {
-    width: 8%;
+    width: 50px;
     background-color: rgb(246, 144, 35);
     height: 3px;
     margin-left: 45%;
@@ -59,14 +57,14 @@
     color: rgb(37, 37, 37);
     direction: rtl;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
-    font-size: 17.5px;
+    /* font-size: 17.5px; */
     font-weight: 700;
     line-height: 24.5px;
 }
 
 .form {
     text-align: right;
-    width: 40%;
+    width: 700px;
 }
 .form-label {
     color: rgb(37, 37, 37);
