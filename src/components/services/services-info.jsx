@@ -3,7 +3,7 @@ import Image2 from "../services/images/employee.jpg";
 import Image3 from "../services/images/insect-1.jpg";
 import Image4 from "../services/images/insect.jpg";
 import Image5 from "../services/images/tanks.jpg";
-import Image6 from "../services/images/carpet-sofa.jpg";
+import Image6 from "../services/images/sofa-carpet.jpg";
 
 export const Info = [
     {

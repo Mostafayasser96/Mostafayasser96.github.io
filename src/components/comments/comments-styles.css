@@ -46,9 +46,7 @@
 }
 
 .comments-car .carousel-item {
-    width: 50%;
-    text-align: right;
-    margin-left: 25%;
+    
 }
 
 .carousel-indicators {
@@ -64,31 +62,19 @@
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
 }
 
-.comment-line {
+/* .comment-line {
     width: 8%;
     height: 3px;
     background-color: rgb(246, 144, 35);
-    margin-left: 89%;
+    margin-left: 61%;
     margin-bottom: 15px;
-}
+} */
 
 #name {
     font-size: 14px;
     font-weight: bold;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
-    direction: rtl;
+    /* direction: rtl; */
     line-height: 20px;
 }
 
-.comments-car .carousel-control-prev,
-.comments-car .carousel-control-next {
-    display: block;
-    
-}
-
-.comments-car .carousel-control-prev-icon,
-.comments-car .carousel-control-next-icon {
-    width: 35px;
-    height: 45px;
-    filter: invert(1);
-}

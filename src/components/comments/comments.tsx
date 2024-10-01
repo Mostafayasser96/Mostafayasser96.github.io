@@ -19,15 +19,15 @@ const Comments = () => {
                 تعليقات العملاء...
             </div>
             <div className="comments-carousel">
-                <Carousel className="comments-car">
+                <Carousel interval={null} indicators={false} className="row comments-car">
                     {CommentsInfo.map((comment, key) => (
-                        <Carousel.Item key={key}>
-                            <div id="comment">
+                        <Carousel.Item key={key} className="float-md-none float-lg-none col-md-12 p-y-md-10 p-x-md-20">
+                            <div id="comment" className="float-lg-none col-lg-12 float-sm-none text-align-center px-5">
                                 <FontAwesomeIcon icon={faQuoteRight} />
                                 {comment.comment}
                                 <FontAwesomeIcon icon={faQuoteLeft} />
                             </div>
-                            <div className="comment-line"></div>
+                            <div className="comment-line text-align-center px-5"></div>
                             <div id="name">{comment.name}</div>
                             <div id="rating">
                              <FontAwesomeIcon icon={faStar} color="#FFBF00" />
