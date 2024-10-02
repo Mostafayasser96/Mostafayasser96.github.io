@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/elfares-final/static/css/main.2cc86112.css",
-    "main.js": "/elfares-final/static/js/main.d7cb6d4c.js",
+    "main.css": "/elfares-final/static/css/main.77927793.css",
+    "main.js": "/elfares-final/static/js/main.aa167122.js",
     "static/js/453.7d28b039.chunk.js": "/elfares-final/static/js/453.7d28b039.chunk.js",
     "static/media/intro.mp4": "/elfares-final/static/media/intro.d38c49d0afb6367ace8d.mp4",
     "static/media/photo-2.png": "/elfares-final/static/media/photo-2.796b1d761eb25c6735aa.png",
@@ -17,12 +17,12 @@
     "static/media/photo-3.png": "/elfares-final/static/media/photo-3.0a2ed91111bb6653b86c.png",
     "static/media/tanks.jpg": "/elfares-final/static/media/tanks.0a191f2860426948ac6d.jpg",
     "index.html": "/elfares-final/index.html",
-    "main.2cc86112.css.map": "/elfares-final/static/css/main.2cc86112.css.map",
-    "main.d7cb6d4c.js.map": "/elfares-final/static/js/main.d7cb6d4c.js.map",
+    "main.77927793.css.map": "/elfares-final/static/css/main.77927793.css.map",
+    "main.aa167122.js.map": "/elfares-final/static/js/main.aa167122.js.map",
     "453.7d28b039.chunk.js.map": "/elfares-final/static/js/453.7d28b039.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cc86112.css",
-    "static/js/main.d7cb6d4c.js"
+    "static/css/main.77927793.css",
+    "static/js/main.aa167122.js"
   ]
 }
