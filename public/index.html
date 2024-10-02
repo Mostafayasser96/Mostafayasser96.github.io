@@ -25,26 +25,6 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-  <script type="module"> import node-smtp - client from https://cdn.jsdelivr.net/npm/node-smtp-client@0.2.4/+esm </script>
-  <script>
-    function sendEmail() {
-      const Email = nodeSmtpClient.Mail({
-
-        host: "smtp.gmail.com",
-        port: 25,
-        username: 'elfaresservices11@gmail.com',
-        password: 'arut cxtr ddde gvus',
-      })
-
-      Email.message({
-        to: ['elfaresservices11@gmail.com'],
-        from: "5amisiyala@gmail.com",
-        subject: "Testing Email using javascript",
-      }).body("If you are reading this, dont forget to applaud")
-        .send()
-    }
-    sendEmail()
-  </script>
 
   <title>React App</title>
 
