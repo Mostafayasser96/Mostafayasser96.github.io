@@ -2,13 +2,14 @@
 /* the background color for the navbar should be modified, logo should be refactored to be compatible
 with the rest of elements in the navbar */
 .header {
-    height: 800px;
-    
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+
 }
 
-.header-video {
+.header-img {
     position: absolute;
-    /* height: 100%; */
     background-color: red;
     display: block;
     width: 100%;
@@ -16,20 +17,26 @@ with the rest of elements in the navbar */
 
 .header .nav {
     background-color: #EBE3D5;
-    padding: 7px;
+    padding: 45px;
     position: fixed;
     width: 100%;
-    z-index: 4444;
-    height: 70px;
+    z-index: 444;
+    height: 87px;
+    
 }
+
+
 .nav-item a {
-    color: #776B5D;
-    font-weight: bold;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
 }
+
 .nav-item a:hover {
     color: #198cd8;
 
 }
+
 .logo-a {
     display: inline-block;
     height: 100px;
@@ -38,4 +45,8 @@ with the rest of elements in the navbar */
 .header-logo {
     width: 80px;
     height: 58px;
+}
+
+.header-brand {
+    padding-top: 0px;
 }

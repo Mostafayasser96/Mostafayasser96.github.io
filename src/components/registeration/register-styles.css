@@ -40,13 +40,25 @@
 
 .mobile-number {
     padding: 20px 0px 10px;
-    display: block;
+    /* display: flex; */
     color: rgb(246, 144, 35);
     text-decoration: none;
     cursor: pointer;
     direction: ltr;
     font-size: 33px;
     font-weight: 700;
+    width: 250px;
+}
+
+.mobile-number .callUs-icon {
+    margin-top: 9px;
+}
+
+.mobile-number .call-btn {
+    border: none;
+    padding-top: 15px;
+    background-color: white;
+
 }
 
 .mobile-number:hover {

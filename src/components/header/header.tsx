@@ -1,57 +1,53 @@
-import React from "react";
+import React, { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import logo2 from "../header/logo-2.png";
 import { Container, Nav } from "react-bootstrap";
 import Navbar from 'react-bootstrap/Navbar';
 import { Info } from "./header-info";
+import HeaderImg from "./header-img.jpg";
 import "../header/header-styles.css";
-import video from "../header/intro.mp4";
+import Offcanvas from 'react-bootstrap/Offcanvas';
 
 const Header = () => {
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     return (
         <div className="header">
-
-            <video className="header-video" controls autoPlay src={video}></video>
-
-            <Navbar expand="lg" className="navbar-expand-xl bg-body-tertiary">
-                
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav row" >
-                    <Nav fill className="d-lg-block d-md-block col-md-12 col-xl-8 col-lg-8 col-sm-12">
+            <img src={HeaderImg} alt="this is header image" className="header-img" />
+           <Navbar className="nav d-flex w-100">
+                <Nav fill className="header-nav d-none d-md-flex">
+                    {Info.map((page, id) => (
+                        <Nav.Item key={id}>
+                            <Nav.Link href={page.path} className="text-center">
+                                {page.name}
+                            </Nav.Link>
+                        </Nav.Item>
+                    ))}
+                </Nav>
+                <button className="offCanvas-btn d-block d-md-none" onClick={handleShow}>
+                    offcanvas button
+                </button>
+                <Navbar.Brand href="#home" className="header-brand ms-auto">
+                    <img src={logo2} alt="logo image" className="header-logo" />
+                </Navbar.Brand>
+            </Navbar>
+            <Offcanvas show={show} onHide={handleClose} placement="end">
+                <Offcanvas.Header closeButton>
+                    <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                </Offcanvas.Header>
+                <Offcanvas.Body>
+                    <Nav fill className="d-block">
                         {Info.map((page, id) => (
                             <Nav.Item key={id}>
-                                <Nav.Link href={page.path} className="col-lg-1 w-lg-0 d-lg-inline-block">
+                                <Nav.Link href={page.path} className="">
                                     {page.name}
                                 </Nav.Link>
                             </Nav.Item>
                         ))}
                     </Nav>
-                </Navbar.Collapse>
-                <Navbar.Brand href="#home" className="d-lg-block col-sm-0 d-md-none">
-                    <img src={logo2} alt="logo image" className="header-logo" />
-                </Navbar.Brand>
-
-
-
-
-
-
-                {/* <Navbar.Collapse id="basic-navbar-nav" >
-                        <Nav fill id="header-nav">
-                            {Info.map((page, id) => (
-                                <Nav.Link href={page.path} key={id}>
-                                    {page.name}
-                                </Nav.Link>
-                            ))}
-                        </Nav>
-                        <Navbar.Brand href="#home" className="d-lg-block ">
-                            <img src={logo2} alt="logo image" className="header-logo" />
-                        </Navbar.Brand>
-                    </Navbar.Collapse> */}
-
-
-
-            </Navbar>
+                </Offcanvas.Body>
+            </Offcanvas>
 
         </div>
     )
