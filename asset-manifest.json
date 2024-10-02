@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/elfares-final/static/css/main.2cc86112.css",
-    "main.js": "/elfares-final/static/js/main.92c2e4a0.js",
+    "main.css": "/elfares-final/static/css/main.dbffcc4d.css",
+    "main.js": "/elfares-final/static/js/main.7daf30d1.js",
     "static/js/453.7d28b039.chunk.js": "/elfares-final/static/js/453.7d28b039.chunk.js",
-    "static/media/intro.mp4": "/elfares-final/static/media/intro.d38c49d0afb6367ace8d.mp4",
     "static/media/photo-2.png": "/elfares-final/static/media/photo-2.796b1d761eb25c6735aa.png",
     "static/media/insect-1.jpg": "/elfares-final/static/media/insect-1.422fd3c296aec3ed6ac7.jpg",
     "static/media/insect.jpg": "/elfares-final/static/media/insect.4789778fbca12091a292.jpg",
@@ -14,15 +13,16 @@
     "static/media/logo-2.png": "/elfares-final/static/media/logo-2.d56228126a677ea4ef51.png",
     "static/media/air-cond.jpg": "/elfares-final/static/media/air-cond.3a39865e57779a0639d0.jpg",
     "static/media/photo-1.png": "/elfares-final/static/media/photo-1.3f3a39ce260809c1ef10.png",
+    "static/media/header-img.jpg": "/elfares-final/static/media/header-img.9f46cc3830728ac13796.jpg",
     "static/media/photo-3.png": "/elfares-final/static/media/photo-3.0a2ed91111bb6653b86c.png",
     "static/media/tanks.jpg": "/elfares-final/static/media/tanks.0a191f2860426948ac6d.jpg",
     "index.html": "/elfares-final/index.html",
-    "main.2cc86112.css.map": "/elfares-final/static/css/main.2cc86112.css.map",
-    "main.92c2e4a0.js.map": "/elfares-final/static/js/main.92c2e4a0.js.map",
+    "main.dbffcc4d.css.map": "/elfares-final/static/css/main.dbffcc4d.css.map",
+    "main.7daf30d1.js.map": "/elfares-final/static/js/main.7daf30d1.js.map",
     "453.7d28b039.chunk.js.map": "/elfares-final/static/js/453.7d28b039.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cc86112.css",
-    "static/js/main.92c2e4a0.js"
+    "static/css/main.dbffcc4d.css",
+    "static/js/main.7daf30d1.js"
   ]
 }
