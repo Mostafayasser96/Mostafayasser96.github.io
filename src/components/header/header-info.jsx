@@ -1,27 +1,27 @@
 export const Info = [
     {
         name: "اتصل بنا",
-        path: "/main"
+        path: "/call-us"
     },
     {
         name: "أخر التعليقات",
-        path: "/main"
+        path: "/comments"
     },
     {
         name: "عملاؤنا",
-        path: "/main"
+        path: "/clients"
     },
     {
         name: "سابقة الأعمال",
-        path: "/main"
+        path: "/previousWork"
     },
     {
         name: "خدماتنا",
-        path: "/main"
+        path: "/services"
     },
     {
         name: "الرئيسية",
-        path: "/main"
+        path: "/"
     },
 ];
 
