@@ -7,6 +7,8 @@ import { Info } from "./header-info";
 import HeaderImg from "./header-img.jpg";
 import "../header/header-styles.css";
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
     const [show, setShow] = useState(false);
@@ -14,8 +16,8 @@ const Header = () => {
     const handleShow = () => setShow(true);
     return (
         <div className="header">
-            <img src={HeaderImg} alt="this is header image" className="header-img" />
-           <Navbar className="nav d-flex w-100">
+            {/* <img src={HeaderImg} alt="this is header image" className="header-img" /> */}
+            <Navbar className="nav d-flex w-100">
                 <Nav fill className="header-nav d-none d-md-flex">
                     {Info.map((page, id) => (
                         <Nav.Item key={id}>
@@ -26,7 +28,7 @@ const Header = () => {
                     ))}
                 </Nav>
                 <button className="offCanvas-btn d-block d-md-none" onClick={handleShow}>
-                    offcanvas button
+                    <FontAwesomeIcon icon={faBars} style={{ fontSize: "25px" }} />
                 </button>
                 <Navbar.Brand href="#home" className="header-brand ms-auto">
                     <img src={logo2} alt="logo image" className="header-logo" />

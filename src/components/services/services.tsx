@@ -29,9 +29,9 @@ const Services = () => {
                             <p className="details-description">
                                 {service.description}
                             </p>
-                            <button className="details-knowMore">
+                            {/* <button className="details-knowMore">
                                 {service.knowMore}
-                            </button>
+                            </button> */}
                         </div>
                     ))}
                 </div>
@@ -45,9 +45,9 @@ const Services = () => {
                             <p className="details-description">
                                 {service.description}
                             </p>
-                            <button className="details-knowMore">
+                            {/* <button className="details-knowMore">
                                 {service.knowMore}
-                            </button>
+                            </button> */}
                         </div>
                     ))}
                 </div>
