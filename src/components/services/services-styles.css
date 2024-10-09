@@ -1,7 +1,26 @@
 /*  background-color: rgb(246, 144, 35);    or #f69023   */
 .services {
-    /* margin-top: 300px; */
     padding: 0px 6% 3% 6%;
+}
+
+.call-us {
+    color: rgb(37, 37, 37);
+    direction: rtl;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 42px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+}
+
+.mobile-number {
+    padding: 20px 0px 10px;
+    color: rgb(246, 144, 35);
+    text-decoration: none;
+    cursor: pointer;
+    direction: ltr;
+    font-size: 33px;
+    font-weight: 700;
+    width: 250px;
 }
 
 .services-heading {

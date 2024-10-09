@@ -1,6 +1,4 @@
-.register-form {
-    /* padding: 0px 25% 100px; */
-}
+.register-form {}
 
 .call-us {
     color: rgb(37, 37, 37);
@@ -40,7 +38,6 @@
 
 .mobile-number {
     padding: 20px 0px 10px;
-    /* display: flex; */
     color: rgb(246, 144, 35);
     text-decoration: none;
     cursor: pointer;
@@ -69,7 +66,6 @@
     color: rgb(37, 37, 37);
     direction: rtl;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
-    /* font-size: 17.5px; */
     font-weight: 700;
     line-height: 24.5px;
 }
@@ -78,6 +74,7 @@
     text-align: right;
     width: 700px;
 }
+
 .form-label {
     color: rgb(37, 37, 37);
     direction: rtl;
@@ -112,6 +109,7 @@
     text-decoration: none;
     outline: none;
 }
+
 .border-div {
     border: 1px solid white;
     padding: 2%;

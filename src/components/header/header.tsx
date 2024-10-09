@@ -4,7 +4,7 @@ import logo2 from "../header/logo-2.png";
 import { Container, Nav } from "react-bootstrap";
 import Navbar from 'react-bootstrap/Navbar';
 import { Info } from "./header-info";
-import HeaderImg from "./header-img.jpg";
+// import HeaderImg from "./header-img.jpg";
 import "../header/header-styles.css";
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -36,7 +36,6 @@ const Header = () => {
             </Navbar>
             <Offcanvas show={show} onHide={handleClose} placement="end">
                 <Offcanvas.Header closeButton>
-                    <Offcanvas.Title>Offcanvas</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                     <Nav fill className="d-block">
@@ -50,7 +49,6 @@ const Header = () => {
                     </Nav>
                 </Offcanvas.Body>
             </Offcanvas>
-
         </div>
     )
 }

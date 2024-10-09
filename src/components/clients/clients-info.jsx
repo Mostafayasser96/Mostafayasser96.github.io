@@ -8,42 +8,42 @@ import Image6 from "./images/photo-6.png";
 export const ClientsInfo = [
     {
         src: `${Image1}`,
-        alt: "Elreyad Reit",
+        alt: "Eltalom Schools",
         width: "100%",
         height: "100%",
         interval: 2000
     },
     {
         src: `${Image2}`,
-        alt: "Four Seasons Hotels",
+        alt: "Al Sheraa Restaurant",
         width: "100%",
         height: "100%",
         interval: 2000
     },
     {
         src: `${Image3}`,
-        alt: "Mariott Reyadh",
+        alt: "Al Rajidi",
         width: "100%",
         height: "100%",
         interval: 2000
     },
     {
         src: `${Image4}`,
-        alt: "Intercontinental Hotels",
+        alt: "Alaraby",
         width: "100%",
         height: "100%",
         interval: 2000
     },
     {
         src: `${Image5}`,
-        alt: "Intercontinental Hotels",
+        alt: "ibis",
         width: "100%",
         height: "100%",
         interval: 2000
     },
     {
         src: `${Image6}`,
-        alt: "Intercontinental Hotels",
+        alt: "Aqaseem Company",
         width: "100%",
         height: "100%",
         interval: 2000

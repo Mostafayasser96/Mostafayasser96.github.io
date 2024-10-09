@@ -1,11 +1,37 @@
 import React from "react";
+import { useState } from "react";
 import { Info, Info2 } from "./services-info";
 import "../services/services-styles.css";
 import 'bootstrap/dist/css/bootstrap.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
+    const [phone, setPhone] = useState("")
+    const [service, setService] = useState("")
+    const [message, setMessage] = useState("")
+
+    const phoneNumber = "0534150198";
+    interface CallButtonProps {
+        phoneNumber: string;
+    }
+    const CallButton: React.FC<CallButtonProps> = ({ phoneNumber }) => {
+        const handleCall = () => {
+            window.location.href = `tel:${phoneNumber}`;
+        };
+
+        return (
+            <button className="call-btn d-block px-0 py-0" onClick={handleCall}>
+                0534150198
+            </button>
+        );
+    };
     return (
         <div className="services">
+            <a className="mobile-number mx-auto mb-3 d-flex justify-content-evenly">
+                <FontAwesomeIcon icon={faPhone} color="rgb(246, 144, 35)" className="callUs-icon" />
+                <CallButton phoneNumber={phoneNumber} />
+            </a>
             <div className="services-bio">
                 <h1 className="services-heading ">
                     الخدمات
@@ -29,9 +55,6 @@ const Services = () => {
                             <p className="details-description">
                                 {service.description}
                             </p>
-                            {/* <button className="details-knowMore">
-                                {service.knowMore}
-                            </button> */}
                         </div>
                     ))}
                 </div>
@@ -45,9 +68,6 @@ const Services = () => {
                             <p className="details-description">
                                 {service.description}
                             </p>
-                            {/* <button className="details-knowMore">
-                                {service.knowMore}
-                            </button> */}
                         </div>
                     ))}
                 </div>

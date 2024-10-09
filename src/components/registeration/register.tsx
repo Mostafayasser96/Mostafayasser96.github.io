@@ -53,11 +53,9 @@ const Register = () => {
                     <Form.Label> اترك رسالتك </Form.Label>
                     <Form.Control type="text" onChange={e => setMessage(e.target.value)} />
                 </Form.Group>
-
                 <Button type="submit" target="_blank" onClick={() => sendEmail(phone, service, message)}>
                     <div className="border-div display-sm-6">
                         تسجيل
-
                     </div>
                 </Button>
             </Form>
