@@ -1,7 +1,7 @@
 .footer {}
 
 .sub-footer {
-    padding: 45px 45px;
+    padding: 0px 45px 75px 45px;
 }
 
 .copyrights {
@@ -54,4 +54,18 @@
 
 .fa-brands {
     font-size: 30px;
+}
+
+.MyNav {
+    width: 100%;
+    border: none;
+}
+
+.navbar-nav {
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    margin: 0px;
 }

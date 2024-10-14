@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
-import { Nav, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import "../footer/footer-styles.css";
 import logo from "../header/logo-2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -18,7 +18,7 @@ const Footer = () => {
 
         return (
             <button className="call-btn d-block" onClick={handleCall}>
-                <FontAwesomeIcon icon={faPhone} style={{ fontSize: '30px', color: "rgb(246, 144, 35)", }}/>              
+                <FontAwesomeIcon icon={faPhone} style={{ fontSize: '30px', color: "rgb(246, 144, 35)", }} />
             </button>
         );
     };
@@ -68,7 +68,7 @@ const Footer = () => {
                     <h6 className="rights"> حقوق النشر © 2024 جميع الحقوق محفوظة</h6>
                 </div>
             </div>
-            <div className="communicate d-flex justify-content-around d-lg-none d-md-none">
+            {/* <div className="communicate d-flex justify-content-around d-lg-none d-md-none">
                 <div className="dial">
                     
                     <CallButton phoneNumber={phoneNumber}   />
@@ -78,7 +78,24 @@ const Footer = () => {
                     <img  className="whatsapp-img" width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/>
                     </a>
                 </div>
-            </div>
+            </div> */}
+
+            <Navbar className="MyNav p-0 m-0 d-lg-none d-md-none" fixed="bottom">
+                <Nav>
+                    <Nav.Link href="#home">
+                        <div className="dial">
+                            <CallButton phoneNumber={phoneNumber} />
+                        </div>
+                    </Nav.Link>
+                    <Nav.Link href="#about">
+                        <div className="whatsapp">
+                            <a href="https://wa.me/966534150198" className="whatapp-link">
+                                <img className="whatsapp-img" width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1" />
+                            </a>
+                        </div>
+                    </Nav.Link>
+                </Nav>
+            </Navbar>
         </div>
     )
 };
