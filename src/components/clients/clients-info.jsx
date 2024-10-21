@@ -1,9 +1,9 @@
-import Image1 from "./images/photo-1.png";
-import Image2 from "./images/photo-2.png";
-import Image3 from "./images/photo-3.png";
-import Image4 from "./images/photo-4.png";
-import Image5 from "./images/photo-5.png";
-import Image6 from "./images/photo-6.png";
+import Image1 from "./images/photo1.jpg";
+import Image2 from "./images/photo2.jpg";
+import Image3 from "./images/photo3.jpg";
+import Image4 from "./images/photo4.jpg";
+import Image5 from "./images/photo5.jpg";
+// import Image6 from "./images/photo6.jpg";
 
 export const ClientsInfo = [
     {
@@ -41,11 +41,5 @@ export const ClientsInfo = [
         height: "100%",
         interval: 2000
     },
-    {
-        src: `${Image6}`,
-        alt: "Aqaseem Company",
-        width: "100%",
-        height: "100%",
-        interval: 2000
-    },
+    
 ];

@@ -15,7 +15,7 @@ const Clients = () => {
             <Carousel className="clients-carousel " interval={null}>
                 {ClientsInfo.map((client, id) => (
                     <Carousel.Item key={id}>
-                        <img src={client.src} alt={client.alt} className="client-img col-lg-4 float-lg-none col-sm-12"/>
+                        <img src={client.src} alt={client.alt} className="client-img col-lg-3 float-lg-none col-md-4 col-sm-4"/>
                     </Carousel.Item>
                 ))}
             </Carousel>

@@ -6,10 +6,50 @@ with the rest of elements in the navbar */
     height: 600px;
     position: relative;
     overflow: hidden;
-    background-image: url("./header-img.jpg");
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
+    background-image: url("./background3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mobile-header-number {
+    padding: 13px;
+    color: rgb(246, 144, 35);
+    text-decoration: none;
+    cursor: pointer;
+    direction: ltr;
+    font-size: 25px;
+    font-weight: 700;
+    width: 360px;
+    background-color: #f5bb00;
+    margin-top: 2%;
+    border-radius: 25px;
+}
+
+.header-p {
+    font-size: 30px;
+    margin-top: 6%;
+    color: white;
+    width: 30%;
+    margin-left: 35%;
+    font-weight: 700;
+    background-color: cadetblue;
+}
+
+.header-p2 {
+    width: 30%;
+    margin-left: 35%;
+    font-size: 38px;
+    font-weight: 700;
+    border: 3px solid cadetblue;
+    color: white;
+    padding: 18px;
+}
+
+.call-header-btn {
+    color: black;
+    background-color: #f5bb00;
+    border: none;
 }
 
 .offCanvas-btn {
@@ -34,7 +74,7 @@ with the rest of elements in the navbar */
     width: 100%;
     z-index: 444;
     height: 87px;
-    
+
 }
 
 

@@ -81,7 +81,7 @@ const Footer = () => {
             </div> */}
 
             <Navbar className="MyNav p-0 m-0 d-lg-none d-md-none" fixed="bottom">
-                <Nav>
+                <Nav className="Footer-Nav">
                     <Nav.Link href="#home">
                         <div className="dial">
                             <CallButton phoneNumber={phoneNumber} />
