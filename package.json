@@ -30,7 +30,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build --cname elfariscleaning.com"
   },
   "eslintConfig": {
     "extends": [
@@ -50,5 +50,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://mostafayasser96.github.io/elfares-final"
+  "homepage": "https://mostafayasser96.github.io"
 }
