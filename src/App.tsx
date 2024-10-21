@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Main from './pages/main';
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { Route, Routes, HashRouter } from 'react-router-dom';
 import ServicesPage from './pages/services-page';
 import PreviousWorksPage from './pages/previous-works-page';
 import ClientsPage from './pages/clients-page';
@@ -13,7 +13,7 @@ import CallUsPage from './pages/callUs-page';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path='/' element={<Main />} />
           <Route path='/services' element={<ServicesPage />} />
@@ -22,7 +22,7 @@ function App() {
           <Route path='/comments' element={<CommentsPage />} />
           <Route path='/call-us' element={<CallUsPage />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
 
     </div>
   );

@@ -9,6 +9,7 @@ import "../header/header-styles.css";
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     const [show, setShow] = useState(false);
@@ -21,9 +22,7 @@ const Header = () => {
                 <Nav fill className="header-nav d-none d-md-flex">
                     {Info.map((page, id) => (
                         <Nav.Item key={id}>
-                            <Nav.Link href={page.path} className="text-center">
-                                {page.name}
-                            </Nav.Link>
+                            <Link to={page.path} className="text-center">{page.name}</Link>
                         </Nav.Item>
                     ))}
                 </Nav>
@@ -41,9 +40,8 @@ const Header = () => {
                     <Nav fill className="d-block">
                         {Info.map((page, id) => (
                             <Nav.Item key={id}>
-                                <Nav.Link href={page.path} className="">
-                                    {page.name}
-                                </Nav.Link>
+                                <Link to={page.path} >{page.name}</Link>
+
                             </Nav.Item>
                         ))}
                     </Nav>
