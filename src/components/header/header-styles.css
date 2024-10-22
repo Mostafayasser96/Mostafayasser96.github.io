@@ -3,7 +3,8 @@
 with the rest of elements in the navbar */
 
 .header {
-    height: 600px;
+    /* min-height: 520px; */
+    height: 130vh;
     position: relative;
     overflow: hidden;
     background-image: url("./background3.jpg");
@@ -20,30 +21,43 @@ with the rest of elements in the navbar */
     direction: ltr;
     font-size: 25px;
     font-weight: 700;
-    width: 360px;
+    width: 220px;
     background-color: #f5bb00;
     margin-top: 2%;
     border-radius: 25px;
 }
 
+.header-txt {
+    /* margin-top: 10%; */
+    text-wrap: nowrap;
+    /* margin: 10% 31%; */
+}
+
 .header-p {
-    font-size: 30px;
-    margin-top: 6%;
+    /* font-size: 23px; */
+    /* margin-top: 9%; */
     color: white;
-    width: 30%;
-    margin-left: 35%;
+    /* width: 30%; */
+    /* margin-left: 35%; */
     font-weight: 700;
     background-color: cadetblue;
+    text-wrap: nowrap;
+    font-size: 2.5vw;
+
+
 }
 
 .header-p2 {
-    width: 30%;
-    margin-left: 35%;
-    font-size: 38px;
+    /* width: 42%; */
+    /* margin-left: 29%; */
+    font-size: 15px;
     font-weight: 700;
     border: 3px solid cadetblue;
     color: white;
-    padding: 18px;
+    /* padding: 18px; */
+    /* margin-top: 2%; */
+    text-wrap: nowrap;
+    font-size: 1.5vw;
 }
 
 .call-header-btn {
@@ -57,6 +71,7 @@ with the rest of elements in the navbar */
     height: 30px;
     background-color: #EBE3D5;
     border: none;
+
 }
 
 
@@ -69,19 +84,25 @@ with the rest of elements in the navbar */
 
 .header .nav {
     background-color: #EBE3D5;
-    padding: 45px;
+    padding: 25px 20px 34px 20px;
     position: fixed;
     width: 100%;
     z-index: 444;
-    height: 87px;
-
+    height: 50px;
+    min-height: 40px;
 }
 
+.header-nav {
+    width: 625px;
+
+}
 
 .nav-item a {
     color: black;
     font-weight: 500;
     font-size: 15px;
+    text-decoration: none;
+    text-wrap: nowrap;
 }
 
 .nav-item a:hover {
@@ -95,10 +116,11 @@ with the rest of elements in the navbar */
 }
 
 .header-logo {
-    width: 80px;
-    height: 58px;
+    width: 52px;
+    /* height: 58px; */
 }
 
 .header-brand {
     padding-top: 0px;
 }
+

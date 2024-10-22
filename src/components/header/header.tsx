@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import logo2 from "../header/logo-2.png";
-import { Container, Nav } from "react-bootstrap";
+import { Container, Nav, Col, Row } from "react-bootstrap";
 import Navbar from 'react-bootstrap/Navbar';
 import { Info } from "./header-info";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
+// import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import "../header/header-styles.css";
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -38,10 +37,8 @@ const Header = () => {
     };
     return (
         <div className="header">
-            {/* <img src={HeaderImg} alt="this is header image" className="header-img" /> */}
-            
             <Navbar className="nav d-flex w-100">
-                <Nav fill className="header-nav d-none d-md-flex">
+                <Nav fill className="header-nav nav-fill d-none d-md-flex text-md-nowrap d-lg-flex">
                     {Info.map((page, id) => (
                         <Nav.Item key={id}>
                             <Link to={page.path} className="text-center">{page.name}</Link>
@@ -49,7 +46,7 @@ const Header = () => {
                     ))}
                 </Nav>
                 <button className="offCanvas-btn d-block d-md-none" onClick={handleShow}>
-                    <FontAwesomeIcon icon={faBars} style={{ fontSize: "25px" }} />
+                    <FontAwesomeIcon icon={faBars} style={{ fontSize: "20px" }} />
                 </button>
                 <Navbar.Brand href="#home" className="header-brand ms-auto">
                     <img src={logo2} alt="logo image" className="header-logo" />
@@ -63,18 +60,61 @@ const Header = () => {
                         {Info.map((page, id) => (
                             <Nav.Item key={id}>
                                 <Link to={page.path} >{page.name}</Link>
-
                             </Nav.Item>
                         ))}
                     </Nav>
                 </Offcanvas.Body>
             </Offcanvas>
-            <p className="header-p">خصم 30% علي كافة خدمات التنظيف</p>
-            <p className="header-p2">تنظيف منازل – شقق – فلل - كنب – مكيفات  مجالس – تنظيف اسطح - عزل وتنظيف خزانات المياه – مكافحة حشرات</p>
+            {/* <p className="header-p col-lg-7 mt-lg-auto">خصم 30% علي كافة خدمات التنظيف</p>
+            <p className="header-p2 mt-lg-4">تنظيف منازل – شقق – فلل - كنب – مكيفات  مجالس – تنظيف اسطح - عزل وتنظيف خزانات المياه – مكافحة حشرات</p>
             <a className="mobile-header-number mx-auto mb-3 d-flex justify-content-evenly">
-                {/* <FontAwesomeIcon icon={faPhone} color="rgb(246, 144, 35)" className="callUs-icon" /> */}
                 <CallButton phoneNumber={phoneNumber} />
-            </a>
+            </a> */}
+
+
+
+
+
+
+
+
+
+
+            {/* <Row>
+                <Col className=" header-txt text-center">
+                    <p className="header-p mx-auto">خصم 30% علي كافة خدمات التنظيف</p>
+                    <p className="header-p2">تنظيف منازل – شقق – فلل - كنب – مكيفات  مجالس – تنظيف اسطح - عزل وتنظيف خزانات المياه – مكافحة حشرات</p>
+                    <a className="mobile-header-number mx-auto mb-3 d-flex justify-content-evenly">
+                        <CallButton phoneNumber={phoneNumber} />
+                    </a>
+                </Col>
+            </Row> */}
+
+<Container fluid className="d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
+      <Row>
+        <Col className="header-txt text-center">
+          <p className="header-p mx-auto fs-1">خصم 30% علي كافة خدمات التنظيف</p>
+          <p className="header-p2 fs-5">
+            تنظيف منازل – شقق – فلل - كنب – مكيفات  مجالس – تنظيف اسطح - عزل وتنظيف خزانات المياه – مكافحة حشرات
+          </p>
+          <a className="mobile-header-number mx-auto mb-3 d-flex justify-content-evenly fs-4">
+            <CallButton phoneNumber={phoneNumber} />
+          </a>
+        </Col>
+      </Row>
+    </Container>
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
     )
 }

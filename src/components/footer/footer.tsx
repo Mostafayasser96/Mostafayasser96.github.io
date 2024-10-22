@@ -5,6 +5,8 @@ import "../footer/footer-styles.css";
 import logo from "../header/logo-2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
+import { Info, NavDropdownInfo } from "./footer-info";
 
 const Footer = () => {
     const phoneNumber = "0534150198";
@@ -27,37 +29,24 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="sub-footer d-lg-flex justify-content-between d-sm-block">
-                <Nav fill className="d-lg-flex justify-content-between text-sm-nowrap">
-                    <Nav.Item>
-                        <Nav fill>
+                <Nav fill className="d-lg-flex justify-content-between col-lg-6 col-md-6">
+                    {/* <Nav.Item> */}
                             <NavDropdown title="المزيد" id="navbarScrollingDropdown">
-                                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action4">
-                                    Another action
-                                </NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action5">
-                                    Something else here
-                                </NavDropdown.Item>
+                                {NavDropdownInfo.map((page, key) => (
+                                    <NavDropdown.Item href="#action3" key={key}>
+                                        <Link to={page.path}>{page.name}</Link>
+                                        <NavDropdown.Divider />
+                                    </NavDropdown.Item>
+
+                                ))}
                             </NavDropdown>
-                            <Nav.Item>
-                                <Nav.Link href="/home" disabled>اتصل بنا </Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link eventKey="disabled" disabled>أخر التعليقات</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link eventKey="disabled" disabled>عملاؤنا
-                                </Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link eventKey="disabled" disabled>
-                                    الرئيسية
-                                </Nav.Link>
-                            </Nav.Item>
-                            {/* This last nav item comes from images folder */}
-                        </Nav>
-                    </Nav.Item>
+                            {Info.map((page, id) => (
+                                <Nav.Item key={id}>
+                                    <Link to={page.path} >{page.name}</Link>
+                                </Nav.Item>
+                            ))}
+
+                    {/* </Nav.Item> */}
                 </Nav>
                 <div className="copyrights d-lg-block text-sm-center text-lg-right">
                     <h5 className="name"> شركة الفارس للنظافة</h5>
@@ -68,20 +57,9 @@ const Footer = () => {
                     <h6 className="rights"> حقوق النشر © 2024 جميع الحقوق محفوظة</h6>
                 </div>
             </div>
-            {/* <div className="communicate d-flex justify-content-around d-lg-none d-md-none">
-                <div className="dial">
-                    
-                    <CallButton phoneNumber={phoneNumber}   />
-                </div>
-                <div className="whatsapp">
-                    <a href="https://wa.me/966534150198" className="whatapp-link">
-                    <img  className="whatsapp-img" width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/>
-                    </a>
-                </div>
-            </div> */}
 
             <Navbar className="MyNav p-0 m-0 d-lg-none d-md-none" fixed="bottom">
-                <Nav className="Footer-Nav">
+                <Nav className="Footer-Nav mx-auto ">
                     <Nav.Link href="#home">
                         <div className="dial">
                             <CallButton phoneNumber={phoneNumber} />
