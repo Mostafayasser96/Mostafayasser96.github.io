@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.821a2501.css",
-    "main.js": "/static/js/main.24d18280.js",
+    "main.css": "/static/css/main.594f8b37.css",
+    "main.js": "/static/js/main.ea100e7c.js",
     "static/js/453.7d28b039.chunk.js": "/static/js/453.7d28b039.chunk.js",
+    "static/media/background-3.png": "/static/media/background-3.85907c76a5db1ebd502b.png",
     "static/media/insect-1.jpg": "/static/media/insect-1.422fd3c296aec3ed6ac7.jpg",
     "static/media/employee.jpg": "/static/media/employee.2cd55d6c2a670569321f.jpg",
     "static/media/floors.jpg": "/static/media/floors.9168297d0d774fa7e40b.jpg",
     "static/media/logo-2.png": "/static/media/logo-2.d56228126a677ea4ef51.png",
     "static/media/air-cond.jpg": "/static/media/air-cond.3a39865e57779a0639d0.jpg",
     "static/media/sofa-carpet.jpg": "/static/media/sofa-carpet.0d1eb35eac1a02b31d22.jpg",
-    "static/media/background3.jpg": "/static/media/background3.1f9f892089dd02072a33.jpg",
     "static/media/photo2.jpg": "/static/media/photo2.1778a74ee1a65291cbf4.jpg",
     "static/media/photo4.jpg": "/static/media/photo4.48442027496bfa446b5a.jpg",
     "static/media/photo3.jpg": "/static/media/photo3.25247ee1ace0fcdab1d2.jpg",
@@ -17,12 +17,12 @@
     "static/media/photo1.jpg": "/static/media/photo1.3c8108eb1c6af4b868af.jpg",
     "static/media/photo5.jpg": "/static/media/photo5.4494fab8d740cb61ec34.jpg",
     "index.html": "/index.html",
-    "main.821a2501.css.map": "/static/css/main.821a2501.css.map",
-    "main.24d18280.js.map": "/static/js/main.24d18280.js.map",
+    "main.594f8b37.css.map": "/static/css/main.594f8b37.css.map",
+    "main.ea100e7c.js.map": "/static/js/main.ea100e7c.js.map",
     "453.7d28b039.chunk.js.map": "/static/js/453.7d28b039.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.821a2501.css",
-    "static/js/main.24d18280.js"
+    "static/css/main.594f8b37.css",
+    "static/js/main.ea100e7c.js"
   ]
 }
