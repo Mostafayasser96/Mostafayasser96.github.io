@@ -192,7 +192,7 @@ with the rest of elements in the navbar */
     background-image: url("./background-3.png");
     background-size: cover;
     background-position: center;
-    height: 175vh;
+    height: 160vh;
 }
 
 .header .h1 {
@@ -226,7 +226,7 @@ with the rest of elements in the navbar */
 
 @media (max-width: 900px) {
     .header {
-        height: 125vh !important;
+        height: 100vh !important;
     }
 
     .header .nav {
