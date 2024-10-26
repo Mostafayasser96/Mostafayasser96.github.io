@@ -201,7 +201,7 @@ with the rest of elements in the navbar */
 
 @media (max-width: 370px) {
     .header {
-        height: 50vh !important;
+        height: 45vh !important;
     }
 
     .header .nav {
@@ -209,24 +209,24 @@ with the rest of elements in the navbar */
     }
 
     .header-p {
-        font-size: 15px !important;
-        margin-top: 21% !important;
+        font-size: 20px !important;
+        margin-top: 8%!important;
     }
 
     .header-p2 {
-        font-size: 15px !important;
+        font-size: 20px !important;
         width: 60% !important;
     }
 
     .mobile-header-number {
         padding: 9px !important;
-        width: 162px !important;
+        width: 172px !important;
     }
 }
 
 @media (max-width: 900px) {
     .header {
-        height: 70vh !important;
+        height: 60vh !important;
     }
 
     .header .nav {
@@ -234,18 +234,18 @@ with the rest of elements in the navbar */
     }
 
     .header-p {
-        font-size: 15px !important;
-        margin-top: 15% !important;
+        font-size: 20px !important;
+        margin-top: 8% !important;
     }
 
     .header-p2 {
-        font-size: 15px !important;
+        font-size: 20px !important;
         width: 70% !important;
     }
 
     .mobile-header-number {
         padding: 7px !important;
-        width: 162px !important;
+        width: 172px !important;
     }
 }
 
