@@ -201,7 +201,7 @@ with the rest of elements in the navbar */
 
 @media (max-width: 370px) {
     .header {
-        height: 70vh !important;
+        height: 50vh !important;
     }
 
     .header .nav {
@@ -209,13 +209,13 @@ with the rest of elements in the navbar */
     }
 
     .header-p {
-        font-size: 10px !important;
+        font-size: 15px !important;
         margin-top: 21% !important;
     }
 
     .header-p2 {
-        font-size: 10px !important;
-        width: 70% !important;
+        font-size: 15px !important;
+        width: 60% !important;
     }
 
     .mobile-header-number {
@@ -226,7 +226,7 @@ with the rest of elements in the navbar */
 
 @media (max-width: 900px) {
     .header {
-        height: 100vh !important;
+        height: 70vh !important;
     }
 
     .header .nav {
