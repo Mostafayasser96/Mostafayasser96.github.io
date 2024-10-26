@@ -188,7 +188,7 @@ const Header = () => {
 
             <div className="overlay">
                 <p className="header-p mx-auto fs-1">خصم 30% علي كافة خدمات التنظيف</p>
-                <p className="header-p2 fs-1">
+                <p className="header-p2">
                     تنظيف منازل – شقق – فلل - كنب – مكيفات  مجالس – تنظيف اسطح - عزل وتنظيف خزانات المياه – مكافحة حشرات
                 </p>
                 <a className="mobile-header-number mx-auto mb-3 d-flex justify-content-center fs-4">
