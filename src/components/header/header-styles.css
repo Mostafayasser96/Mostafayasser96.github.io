@@ -201,7 +201,7 @@ with the rest of elements in the navbar */
 
 @media (max-width: 370px) {
     .header {
-        height: 125vh !important;
+        height: 70vh !important;
     }
 
     .header .nav {
