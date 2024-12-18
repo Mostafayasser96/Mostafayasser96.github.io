@@ -19,7 +19,7 @@ const Header = () => {
     const [service, setService] = useState("")
     const [message, setMessage] = useState("")
 
-    const phoneNumber = "0534150198";
+    const phoneNumber = "0575070763";
     interface CallButtonProps {
         phoneNumber: string;
     }
@@ -30,7 +30,7 @@ const Header = () => {
 
         return (
             <button className="call-header-btn d-block px-0 py-0" onClick={handleCall}>
-                0534150198 اتصل الأن
+                0575070763 اتصل الأن
             </button>
         );
     };
