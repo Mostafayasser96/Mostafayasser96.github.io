@@ -13,7 +13,7 @@ const Register = () => {
     const [service, setService] = useState("")
     const [message, setMessage] = useState("")
 
-    const phoneNumber = "0575070763";
+    const phoneNumber = "966575070763";
     interface CallButtonProps {
         phoneNumber: string;
     }
@@ -24,7 +24,7 @@ const Register = () => {
 
         return (
             <button className="call-btn d-block px-0 py-0" onClick={handleCall}>
-                0575070763
+                966575070763
             </button>
         );
     };

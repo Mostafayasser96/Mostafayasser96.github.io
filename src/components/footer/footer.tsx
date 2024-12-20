@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import { Info, NavDropdownInfo } from "./footer-info";
 
 const Footer = () => {
-    const phoneNumber = "0534150198";
+    const phoneNumber = "966575070763";
     interface CallButtonProps {
         phoneNumber: string;
     }
