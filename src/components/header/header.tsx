@@ -30,7 +30,7 @@ const Header = () => {
 
         return (
             <button className="call-header-btn d-block px-0 py-0" onClick={handleCall}>
-                0575070763 اتصل الأن
+                +966575070763
             </button>
         );
     };

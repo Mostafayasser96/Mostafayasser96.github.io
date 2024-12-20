@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import { Info, NavDropdownInfo } from "./footer-info";
 
 const Footer = () => {
-    const phoneNumber = "966575070763";
+    const phoneNumber = "+966575070763";
     interface CallButtonProps {
         phoneNumber: string;
     }
@@ -67,7 +67,7 @@ const Footer = () => {
                     </Nav.Link>
                     <Nav.Link href="#about">
                         <div className="whatsapp">
-                            <a href="https://wa.me/966534150198" className="whatapp-link">
+                            <a href="https://wa.me/966575070763" className="whatapp-link">
                                 <img className="whatsapp-img" width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1" />
                             </a>
                         </div>
