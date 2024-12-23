@@ -25,6 +25,8 @@ const Header = () => {
     }
     const CallButton: React.FC<CallButtonProps> = ({ phoneNumber }) => {
         const handleCall = () => {
+            // @ts-ignore
+            return gtag_report_conversion(`tel:${phoneNumber}`)
             window.location.href = `tel:${phoneNumber}`;
         };
 

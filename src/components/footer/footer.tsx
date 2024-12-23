@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
@@ -15,6 +16,8 @@ const Footer = () => {
     }
     const CallButton: React.FC<CallButtonProps> = ({ phoneNumber }) => {
         const handleCall = () => {
+            //@ts-ignore
+            return gtag_report_conversion(`tel:${phoneNumber}`)
             window.location.href = `tel:${phoneNumber}`;
         };
 
@@ -67,7 +70,7 @@ const Footer = () => {
                     </Nav.Link>
                     <Nav.Link href="#about">
                         <div className="whatsapp">
-                            <a href="https://wa.me/966575070763" className="whatapp-link">
+                            <a onClick={()=>gtag_report_conversion('https://wa.me/966575070763')} href="https://wa.me/966575070763" className="whatapp-link">
                                 <img className="whatsapp-img" width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1" />
                             </a>
                         </div>

@@ -29,16 +29,20 @@
     gtag('config', 'AW-16656360587');
   </script>
 
-
-
-
-
-
-
-
-
-
-
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof (url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-16656360587/QvfuCK_k0PoZEIvJr4Y-',
+        'event_callback': callback
+      });
+      return false;
+    }
+  </script>
 
   <!--
       Notice the use of %PUBLIC_URL% in the tags above.
